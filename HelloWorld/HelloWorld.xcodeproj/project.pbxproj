@@ -19,6 +19,8 @@
 		70C009BC188FBBDF00823341 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C009A4188FBBDF00823341 /* UIKit.framework */; };
 		70C009C4188FBBDF00823341 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70C009C2188FBBDF00823341 /* InfoPlist.strings */; };
 		70C009C6188FBBDF00823341 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C009C5188FBBDF00823341 /* HelloWorldTests.m */; };
+		70C009D2188FBEE800823341 /* HLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C009D0188FBEE800823341 /* HLMainViewController.m */; };
+		70C009D3188FBEE800823341 /* HLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C009D1188FBEE800823341 /* HLMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		70C009C1188FBBDF00823341 /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		70C009C3188FBBDF00823341 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70C009C5188FBBDF00823341 /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		70C009CF188FBEE800823341 /* HLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMainViewController.h; sourceTree = "<group>"; };
+		70C009D0188FBEE800823341 /* HLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMainViewController.m; sourceTree = "<group>"; };
+		70C009D1188FBEE800823341 /* HLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 			children = (
 				70C009AF188FBBDF00823341 /* HLAppDelegate.h */,
 				70C009B0188FBBDF00823341 /* HLAppDelegate.m */,
+				70C009CF188FBEE800823341 /* HLMainViewController.h */,
+				70C009D0188FBEE800823341 /* HLMainViewController.m */,
+				70C009D1188FBEE800823341 /* HLMainViewController.xib */,
 				70C009B2188FBBDF00823341 /* Images.xcassets */,
 				70C009A7188FBBDF00823341 /* Supporting Files */,
 			);
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C009AB188FBBDF00823341 /* InfoPlist.strings in Resources */,
+				70C009D3188FBEE800823341 /* HLMainViewController.xib in Resources */,
 				70C009B3188FBBDF00823341 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C009D2188FBEE800823341 /* HLMainViewController.m in Sources */,
 				70C009B1188FBBDF00823341 /* HLAppDelegate.m in Sources */,
 				70C009AD188FBBDF00823341 /* main.m in Sources */,
 			);
