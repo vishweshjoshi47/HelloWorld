@@ -21,6 +21,8 @@
 		70C009C6188FBBDF00823341 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C009C5188FBBDF00823341 /* HelloWorldTests.m */; };
 		70C009D2188FBEE800823341 /* HLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C009D0188FBEE800823341 /* HLMainViewController.m */; };
 		70C009D3188FBEE800823341 /* HLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C009D1188FBEE800823341 /* HLMainViewController.xib */; };
+		70C009D7188FC00700823341 /* HLFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C009D5188FC00700823341 /* HLFirstViewController.m */; };
+		70C009D8188FC00700823341 /* HLFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C009D6188FC00700823341 /* HLFirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		70C009CF188FBEE800823341 /* HLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLMainViewController.h; sourceTree = "<group>"; };
 		70C009D0188FBEE800823341 /* HLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLMainViewController.m; sourceTree = "<group>"; };
 		70C009D1188FBEE800823341 /* HLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLMainViewController.xib; sourceTree = "<group>"; };
+		70C009D4188FC00700823341 /* HLFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLFirstViewController.h; sourceTree = "<group>"; };
+		70C009D5188FC00700823341 /* HLFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLFirstViewController.m; sourceTree = "<group>"; };
+		70C009D6188FC00700823341 /* HLFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLFirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,9 @@
 				70C009B0188FBBDF00823341 /* HLAppDelegate.m */,
 				70C009CF188FBEE800823341 /* HLMainViewController.h */,
 				70C009D0188FBEE800823341 /* HLMainViewController.m */,
+				70C009D4188FC00700823341 /* HLFirstViewController.h */,
+				70C009D5188FC00700823341 /* HLFirstViewController.m */,
+				70C009D6188FC00700823341 /* HLFirstViewController.xib */,
 				70C009D1188FBEE800823341 /* HLMainViewController.xib */,
 				70C009B2188FBBDF00823341 /* Images.xcassets */,
 				70C009A7188FBBDF00823341 /* Supporting Files */,
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C009AB188FBBDF00823341 /* InfoPlist.strings in Resources */,
+				70C009D8188FC00700823341 /* HLFirstViewController.xib in Resources */,
 				70C009D3188FBEE800823341 /* HLMainViewController.xib in Resources */,
 				70C009B3188FBBDF00823341 /* Images.xcassets in Resources */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70C009D2188FBEE800823341 /* HLMainViewController.m in Sources */,
+				70C009D7188FC00700823341 /* HLFirstViewController.m in Sources */,
 				70C009B1188FBBDF00823341 /* HLAppDelegate.m in Sources */,
 				70C009AD188FBBDF00823341 /* main.m in Sources */,
 			);
@@ -454,6 +464,7 @@
 				70C009CB188FBBDF00823341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70C009CC188FBBDF00823341 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +473,7 @@
 				70C009CE188FBBDF00823341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
