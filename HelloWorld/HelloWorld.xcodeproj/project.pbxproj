@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		707AE8AE18AA01E700011EED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707AE8AD18AA01E700011EED /* MapKit.framework */; };
 		70C009A1188FBBDF00823341 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C009A0188FBBDF00823341 /* Foundation.framework */; };
 		70C009A3188FBBDF00823341 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C009A2188FBBDF00823341 /* CoreGraphics.framework */; };
 		70C009A5188FBBDF00823341 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C009A4188FBBDF00823341 /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		707AE8AD18AA01E700011EED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		70C0099D188FBBDF00823341 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C009A0188FBBDF00823341 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70C009A2188FBBDF00823341 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707AE8AE18AA01E700011EED /* MapKit.framework in Frameworks */,
 				70C009A3188FBBDF00823341 /* CoreGraphics.framework in Frameworks */,
 				70C009A5188FBBDF00823341 /* UIKit.framework in Frameworks */,
 				70C009A1188FBBDF00823341 /* Foundation.framework in Frameworks */,
@@ -106,6 +109,7 @@
 		70C0099F188FBBDF00823341 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				707AE8AD18AA01E700011EED /* MapKit.framework */,
 				70C009A0188FBBDF00823341 /* Foundation.framework */,
 				70C009A2188FBBDF00823341 /* CoreGraphics.framework */,
 				70C009A4188FBBDF00823341 /* UIKit.framework */,
@@ -170,6 +174,7 @@
 				70C00999188FBBDF00823341 /* Sources */,
 				70C0099A188FBBDF00823341 /* Frameworks */,
 				70C0099B188FBBDF00823341 /* Resources */,
+				7065173F18B5D9C3003E0CFD /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -252,6 +257,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7065173F18B5D9C3003E0CFD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70C00999188FBBDF00823341 /* Sources */ = {
